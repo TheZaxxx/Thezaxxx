@@ -14,7 +14,7 @@ try: # Buka website driver.get('https://faucet.n1stake.com/') time.sleep(5)
 
 # Input SUI address
 address_field = driver.find_element(By.NAME, 'wallet')
-address_field.send_keys(SUI_ADDRESS)
+address_field.send_keys(0x8ffe67a28734f7f796ba3913b4e8d6f476a827672984d3dd3174091002c7ea99)
 
 time.sleep(1)
 
@@ -32,7 +32,7 @@ while True:
         time.sleep(5)
 
         address_field = driver.find_element(By.NAME, 'wallet')
-        address_field.send_keys(SUI_ADDRESS)
+        address_field.send_keys(0x8ffe67a28734f7f796ba3913b4e8d6f476a827672984d3dd3174091002c7ea99)
 
         time.sleep(1)
 
